@@ -1,10 +1,16 @@
 # How to reproduce overlay issue
 
-mkdir ~/repos
+```
+# Clone package into ~/repos
+mkdir -p ~/repos
 cd ~/repos
 git clone https://github.com/abaldur/reproduce_overlay_issue.git
 
+# Link package into catkin_ws/src
 cd ~/catkin_ws/src
 ln -s ~/repos/reproduce_overlay_issue .
-cd ../
+
+# Build
+cd ~/catkin_ws
 catkin_make
+```
