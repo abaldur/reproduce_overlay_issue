@@ -1,5 +1,7 @@
 # How to reproduce overlay issue
 
+
+## Installation
 ```
 # Clone package into ~/repos
 mkdir -p ~/repos
@@ -14,3 +16,7 @@ ln -s ~/repos/reproduce_overlay_issue .
 cd ~/catkin_ws
 catkin_make
 ```
+
+## Info
+The problem has been reproduced on two different machines both running ROS melodic on Ubuntu 18.04.
+
